@@ -1,8 +1,8 @@
 // Them thu vien
 #include <ESP8266WiFi.h>
 // Thong so WiFi
-const char* ssid = "SATO";	//Thay  ten_wifi bang ten wifi nha ban
-const char* password = "0905263389";	//Thay mat_khau_wifi bang mat khau cua ban
+const char* ssid = "ten_wifi";	//Thay  ten_wifi bang ten wifi nha ban
+const char* password = "mat_khau_wifi";	//Thay mat_khau_wifi bang mat khau cua ban
 void setup(void)
 {
 // Khoi dong serial de debug
@@ -14,7 +14,7 @@ void setup(void)
 		Serial.print(".");
 	}
 	Serial.println("");
-	Serial.println("WiFi connected");
+	Serial.println("Da ket noi WiFi");
 // Neu da ket noi duoc voi wifi se in ra dia chi IP
 	Serial.println(WiFi.localIP());
 }
