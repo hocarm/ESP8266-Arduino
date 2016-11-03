@@ -12,8 +12,8 @@
 DHT dht(DHTPIN, DHTTYPE, 15);
 
 // Thong so WiFi nha ban
-const char* ssid = "SATO";
-const char* password = "123456789";
+const char* ssid = "ten-wifi";
+const char* password = "pass-wifi";
 
 // Tao server
 WiFiServer server(80);
